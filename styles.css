@@ -40,9 +40,10 @@ nav ul li a {
 /* Hero Section Styles */
 #hero {
     position: relative;
-    background: url('1v1.png') no-repeat center center/cover;
+    background: url('1v1.png') no-repeat center center/cover; /* Ensure the image covers the section */
+    background-size: cover; /* Stretch image to cover the entire section */
     color: #fff;
-    padding: 100px 0;
+    padding: 150px 0; /* Add more padding for better spacing */
     text-align: center;
 }
 
@@ -65,14 +66,14 @@ nav ul li a {
 }
 
 #hero h1 {
-    font-size: 3em;
+    font-size: 3.5em; /* Larger heading */
     font-weight: bold;
 }
 
 #hero p {
     font-size: 1.5em;
-    margin-top: 10px;
-    max-width: 800px;
+    margin-top: 20px;
+    max-width: 900px; /* Wider text block */
     margin-left: auto;
     margin-right: auto;
     line-height: 1.5;
@@ -93,7 +94,7 @@ footer {
     background-color: #1F3D3A;
     color: #fff;
     text-align: center;
-    padding: 20px 0;
+    padding: 30px 0; /* Increased padding for better spacing */
     background: url('4v1.jpeg') no-repeat center center/cover;
     position: relative;
 }
